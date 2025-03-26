@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="784.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otp.MainController">
+   <children>
+      <Pane fx:id="panee" layoutX="-18.0" prefHeight="561.0" prefWidth="450.0" style="-fx-background-color: whiteac; -fx-background-radius: 0;" stylesheets="@style.css">
+         <children>
+            <Text fx:id="identifier" fill="#1e1f28" layoutX="41.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome" textAlignment="CENTER" wrappingWidth="386.56298828125">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="36.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="272.0" fitWidth="409.0" layoutX="30.0" layoutY="126.0">
+               <image>
+                  <Image url="@images/group-young-people-waving-hand.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="63.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username: lester" wrappingWidth="210.13671875">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="63.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="password: lester" wrappingWidth="210.13671875">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Text>
+            <Text layoutX="63.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email: any email" wrappingWidth="210.13671875">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="22.0" />
+               </font>
+            </Text>
+         </children></Pane>
+      <Text fill="#413c5b" layoutX="527.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" wrappingWidth="191.3125">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="47.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtusername" layoutX="476.0" layoutY="147.0" prefHeight="40.0" prefWidth="264.0" promptText="username">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </TextField>
+      <Button layoutX="490.0" layoutY="388.0" mnemonicParsing="false" onAction="#btnlogin" prefHeight="51.0" prefWidth="229.0" text="Login" />
+      <PasswordField fx:id="txtpasswordl" layoutX="476.0" layoutY="232.0" prefHeight="40.0" prefWidth="264.0" promptText="password">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font></PasswordField>
+      <TextField fx:id="txtemail" layoutX="476.0" layoutY="314.0" prefHeight="40.0" prefWidth="264.0" promptText="email">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

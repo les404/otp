@@ -9,36 +9,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ccbb167c-f8e6-4549-ab2c-746827e7de2f" name="Changes" comment="-update">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/75c62e19a9bc9136f17968ab7b9d2ac6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/95b489deacd29a747669eac335d5c75c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/d14fb60b4872a84cec69f7e0c742b659.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/ee4606a53bd9f7e6500091a3b0209bde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/group-young-people-waving-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/otp_jar/README(username and password).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/otp_jar/otp.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/MainController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/images/75c62e19a9bc9136f17968ab7b9d2ac6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/images/95b489deacd29a747669eac335d5c75c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/images/d14fb60b4872a84cec69f7e0c742b659.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/images/ee4606a53bd9f7e6500091a3b0209bde.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/images/group-young-people-waving-hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/landing.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/otpconfirmation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/otp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+    <list default="true" id="ccbb167c-f8e6-4549-ab2c-746827e7de2f" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/otp_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/otp/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/otp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/otp/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/images/75c62e19a9bc9136f17968ab7b9d2ac6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/images/95b489deacd29a747669eac335d5c75c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/images/d14fb60b4872a84cec69f7e0c742b659.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/images/ee4606a53bd9f7e6500091a3b0209bde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/images/group-young-people-waving-hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/landing.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/otpconfirmation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/otp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/MainController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/otp/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/landing.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/otp/landing.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/otp/otpconfirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/otp/otpconfirmation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +79,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -83,27 +91,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/javafx-sdk-24/bin/vcruntime140_1.dll",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/leste/Downloads/jar/javax.mail.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\leste\IdeaProjects\otp\src\main\resources\com\example\otp" />
@@ -141,11 +150,21 @@
       <option name="presentableId" value="Default" />
       <updated>1742949747357</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1743009626411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743009626411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="--nothing" />
     <MESSAGE value="-update" />
-    <option name="LAST_COMMIT_MESSAGE" value="-update" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

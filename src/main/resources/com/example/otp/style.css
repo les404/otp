@@ -1,0 +1,24 @@
+.root{
+   -fx-background-color: white;
+}
+
+.button {
+   -fx-background-color: #3369bf;
+   -fx-text-fill: white;
+   -fx-font-family: "Arial Rounded MT Bold";
+   -fx-font-size: 20px;
+   -fx-background-radius:30;
+}
+
+.button:hover{
+   -fx-background-color: #2980b9;
+}
+
+#panee{
+   -fx-background-color: white;
+   -fx-background-radius: 50;
+
+}
+
+
+
