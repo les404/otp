@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="923.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.otp.MainController">
+   <children>
+      <Pane fx:id="panee" layoutY="-14.0" prefHeight="710.0" prefWidth="923.0" style="-fx-background-radius: 0;" stylesheets="@style.css">
+         <children>
+            <Text fill="#18113c" layoutX="324.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME BACK">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="39.0" />
+               </font>
+               <effect>
+                  <Bloom threshold="0.55" />
+               </effect>
+            </Text>
+            <ImageView fitHeight="328.0" fitWidth="264.0" layoutX="358.0" layoutY="118.0">
+               <image>
+                  <Image url="@images/ee4606a53bd9f7e6500091a3b0209bde.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="566.0" fitWidth="312.0" layoutX="37.0" layoutY="118.0">
+               <image>
+                  <Image url="@images/95b489deacd29a747669eac335d5c75c.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="328.0" fitWidth="258.0" layoutX="637.0" layoutY="118.0">
+               <image>
+                  <Image url="@images/d14fb60b4872a84cec69f7e0c742b659.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="538.0" fitWidth="226.0" layoutX="514.0" layoutY="302.0" rotate="-90.0">
+               <image>
+                  <Image url="@images/75c62e19a9bc9136f17968ab7b9d2ac6.jpg" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>
